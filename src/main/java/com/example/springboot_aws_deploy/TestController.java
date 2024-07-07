@@ -11,4 +11,11 @@ public class TestController {
     public String getData(){
         return "First message from AWS-ECS";
     }
+    @GetMapping("/message")
+    public String getMessage(){
+        return " Ci/Cd pipeline working";
+    }
 }
+
+  
+
